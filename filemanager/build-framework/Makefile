@@ -4,8 +4,7 @@ base:
 	apt-get update -qq
 	apt-get install -y build-essential wget software-properties-common
 	add-apt-repository ppa:git-core/ppa -y
-	apt-get install git nodejs npm nodejs-legacy php5-fpm -y
-	update-rc.d php5-fpm defaults
+	apt-get install git nodejs npm php-fpm -y
 	
 app:
 	npm install -g bower

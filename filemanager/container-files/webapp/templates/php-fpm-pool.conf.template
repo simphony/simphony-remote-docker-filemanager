@@ -3,7 +3,7 @@
 [www]
 user = $USER
 group = $USER
-listen = /var/run/php5-fpm.sock
+listen = /var/run/php-fpm.sock
 listen.owner = www-data
 listen.group = www-data
 pm = dynamic
