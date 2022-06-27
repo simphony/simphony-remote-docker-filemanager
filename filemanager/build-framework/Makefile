@@ -4,8 +4,9 @@ base:
 	apt-get update -qq
 	apt-get install -y build-essential wget software-properties-common
 	add-apt-repository ppa:git-core/ppa -y
-	apt-get install git nodejs npm php5-fpm -y
-	update-rc.d php5-fpm defaults
+	add-apt-repository ppa:ondrej/php -y
+	apt-get install git nodejs npm php8.1-fpm -y
+	update-rc.d php8.1-fpm defaults
 	
 app:
 	npm install -g bower
