@@ -7,7 +7,7 @@ Based on Angular file manager ( https://github.com/joni2back/angular-filemanager
 Operating System
 ----------------
 
-Ubuntu 14.04
+Ubuntu 18.04
 
 Build
 -----
